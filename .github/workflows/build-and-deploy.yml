@@ -37,4 +37,5 @@ jobs:
         uses: actions/deploy-pages@v4
         with:
           artifact_name: static-web
+          path: /home/runner/work/_temp/artifact.tar
           token: ${{ secrets.GITHUB_TOKEN }}
